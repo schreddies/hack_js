@@ -1,4 +1,3 @@
-// Copyright © John Leitch 2010 john.leitch5@gmail.com
 var destination = null;
 var useClone = false;
 var cloneSource = null;
