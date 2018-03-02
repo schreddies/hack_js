@@ -1,0 +1,3 @@
+<?php
+echo "<script>alert(RFI vulnerability detected);</script>";
+?>
