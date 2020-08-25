@@ -1,0 +1,6 @@
+{
+  "subject": "foo@bar.com",
+  "extra": {
+    "data": "wtf"
+  }
+}
