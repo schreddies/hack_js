@@ -1,1 +1,26 @@
-{"subject":"foo@bar.com","extra":{"client_id":"pkce3","scope":"openid offline","username":"","wtf":"udalosie"},"header":null,"match_context":{"regexp_capture_groups":["127.0.0.1"],"url":{"Scheme":"http","Opaque":"","User":null,"Host":"127.0.0.1:4455","Path":"/asdf","RawPath":"","ForceQuery":false,"RawQuery":"","Fragment":""}}}
+{
+  "subject": "foo@bar.com",
+  "extra": {
+    "client_id": "pkce3",
+    "scope": "openid offline",
+    "username": "",
+    "wtf": "udalosie"
+  },
+  "header": null,
+  "match_context": {
+    "regexp_capture_groups": [
+      "127.0.0.1"
+    ],
+    "url": {
+      "Scheme": "http",
+      "Opaque": "",
+      "User": null,
+      "Host": "127.0.0.1:4455",
+      "Path": "/asdf",
+      "RawPath": "",
+      "ForceQuery": false,
+      "RawQuery": "",
+      "Fragment": ""
+    }
+  }
+}
